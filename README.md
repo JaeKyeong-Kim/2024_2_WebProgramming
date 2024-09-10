@@ -47,9 +47,37 @@ css 넣는 방법: 1. head의 style 태그에 전부 넣음 (대세) 2. body의 
 `<body style="background-color:silver">`으로 배경을 회색으로 지정  
 `<strong>아이디와 비밀번호를 입력하세요</strong>` strong은 글자 진하게 표현  
 
+`아이디: <input type="text" name="id"> <br>
+비밀번호: <input type="password" name="pw">`
 input 태그는 입력 의미, type 속성은 text는 문자열, password는 화면에 나올때에 점으로 표현됨. type은 근본적으로 같음.  
 name 속성은 서버로 데이터를 보낼 대에 연동되어 굉장히 중요함.  
+데이터를 서버로 보내려면 name 변수가 반드시 있어야 한다.
 
+----------------------------------------------------------------------------
 
+## Day 2 / 2024.09.10
 
+범위: web2024_1장 p.20~
+
+### [p.20]
+`<p> </p>`(짝지 태그) 은 문단 의미. 위아래로 조금의 간격
+
+`<form action="" method="" > </form>` (짝지 태그) 는 서버로 보낼 데이터의 범위를 설정. 이걸로 묶어야 데이터들을 서버로 보낼 수 있다. 최소한 id, pw, 버튼(확인) 까지는 form 안에 존재해야 서버와 상호작용이 가능함
+
+이번 학기에 form 안에 들어갈 함수 2개는 action, method.
+action="여기" 에는 서버로의 목적지 주소가 들어간다. (where)
+method="여기" 에는 전송 방법을 의미한다. (how) - get, post 등 (default 비어있으면: get)
+get은 옮길 때에 전부에게 보이게 전송되고, post는 눈에 보이지 않게 전송된다.
+보안을 생각하면 post를 사용한 상태에서 보안 조치를 취해야한다.
+
+form, acton, method, name : 이 4가지가 중요
+
+`<button type="submit">확인</button>` 에서 button은 누르는 버튼 만듦. type default는 submit. 짝지 태그. 
+button은 위치가 중요.(form 안) 버튼 클릭 시 버튼이 속한 form을 확인하고, 그 안의 데이터를 확인해 그것을 가지고 method 방법으로 action 목적지로 간다.
+
+### [p.21]
+input type이 radio이면 name이 동일한 radio type 중에 하나만 선택 가능(복수 선택 불가능) - 동그라미로 표시되어 모든 항목 나온 상태에서 선택, value로 정해진 값이 서버로 name에 적힌 타입으로 전송됨. radio는 name, value 모두 써야 함
+`<select> </select>`는 바로 되어있어서 셀렉트 바 클릭해야 항목 나오고, 거기서 선택. 선택된 값이 value가 되어 해당 name으로 그 값이 전송됨. 얘는 input 없이 자체가 select tag임. 안에 option 짝지 태그로 선택 가능한 값들을 넣을 수 있음. 각 option 태그의 뒤에 있는 `</option>` 태그는 생략 가능하다.
+
+`<button type="submit">등록</button> <button type="reset">취소</button>`과 같이 버튼 여러 개 만들 수 있음. reset은 form 안의 입력 내용 초기화 의미함. 
 
