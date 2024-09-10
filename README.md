@@ -73,7 +73,7 @@ get은 옮길 때에 전부에게 보이게 전송되고, post는 눈에 보이�
 form, acton, method, name : 이 4가지가 중요
 
 `<button type="submit">확인</button>` 에서 button은 누르는 버튼 만듦. type default는 submit. 짝지 태그. 
-button은 위치가 중요.(form 안) 버튼 클릭 시 버튼이 속한 form을 확인하고, 그 안의 데이터를 확인해 그것을 가지고 method 방법으로 action 목적지로 간다.
+button은 위치가 중요.(form 안) 버튼 클릭 시 버튼이 속한 form을 확인하고, 그 안의 데이터를 확인해 그것을 가지고 method 방법으로 action 목적지(주소)로 간다.
 
 ### [p.21]
 input type이 radio이면 name이 동일한 radio type 중에 하나만 선택 가능(복수 선택 불가능) - 동그라미로 표시되어 모든 항목 나온 상태에서 선택, value로 정해진 값이 서버로 name에 적힌 타입으로 전송됨. radio는 name, value 모두 써야 함
