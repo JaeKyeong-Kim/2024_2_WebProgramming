@@ -81,3 +81,11 @@ input type이 radio이면 name이 동일한 radio type 중에 하나만 선택 �
 
 `<button type="submit">등록</button> <button type="reset">취소</button>`과 같이 버튼 여러 개 만들 수 있음. reset은 form 안의 입력 내용 초기화 의미함. 
 
+글자에 하이라이트 넣고 싶으면 
+위의 head 안에 style 태그 안에  `h2 {background-color: yellow; color:gray;}` 와 `strong {background-color: aqua;}` 하고 아래에 저러면 됨. 
+
+`<h2> good morning </h2>` 
+`hi <strong> hello </strong> <br>`
+`good`
+
+background가 배경색 혹은 글자 하이라이트, color는 글자색 변경
