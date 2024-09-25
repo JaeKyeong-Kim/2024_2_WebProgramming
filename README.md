@@ -173,3 +173,7 @@ em은 상대 크기, px은 절대 크기 대표.
 위의 항목 중 지구모양에 web browser 사용하면 바로 열림 & 주소 적으면 들어가짐 - 지금은 `http://localhost:8080` 으로 사용함
 eclipse 전용 웹브라우저도 window>web browser>0번 사용 가능함
 
+javascript, css, html 이 세가지만 프론트엔드. (javascript는 웹-javasscript/서버-node.js 둘 다 쓴다.)
+
+springboot를 개발하려면 굳이 eclipse를 설치하지 않아도 된다.
+서버 사용을 위해 아파치 톰캣을 별도로 설치하지 않아도 spring boot만 설치하면 된다.
