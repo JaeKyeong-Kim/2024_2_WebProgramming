@@ -170,4 +170,4 @@ index.html의 ul 은 점 모양, ol은 숫자 로 보여줌
 em은 상대 크기, px은 절대 크기 대표.
 `<a href="/ex01"> </a>`은 밑줄 긋기 및 그 굵기 의미
 
-위의 항목 중 지구모양에 web browser 사용하면 바로 열림 & 주소 적으면 들어가짐 - 지금은 ₩http://localhost:8080₩ 으로 사용함
+위의 항목 중 지구모양에 web browser 사용하면 바로 열림 & 주소 적으면 들어가짐 - 지금은 `http://localhost:8080` 으로 사용함
