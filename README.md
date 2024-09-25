@@ -171,3 +171,5 @@ em은 상대 크기, px은 절대 크기 대표.
 `<a href="/ex01"> </a>`은 밑줄 긋기 및 그 굵기 의미
 
 위의 항목 중 지구모양에 web browser 사용하면 바로 열림 & 주소 적으면 들어가짐 - 지금은 `http://localhost:8080` 으로 사용함
+eclipse 전용 웹브라우저도 window>web browser>0번 사용 가능함
+
